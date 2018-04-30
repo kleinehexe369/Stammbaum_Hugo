@@ -1,3 +1,6 @@
 [submodule "hugo-creative-theme"]
 	path = hugo-creative-theme
 	url = https://github.com/digitalcraftsman/hugo-creative-theme
+[submodule "themes/light-hugo"]
+	path = themes/light-hugo
+	url = https://github.com/tblyler/light-hugo.git
