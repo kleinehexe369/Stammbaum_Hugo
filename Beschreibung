@@ -1,0 +1,14 @@
+Beschreibung:
+
+1. Hugo ist installiert im Verzeichnis /usr/local/Bin
+
+2. Starten den Hugo Servers im Verzeichnis in dem die config.toml-Datei liegt mit
+   $/usr/local/bin/hugo server bzw. hugo server, da der Pfad in das .profile eingebunden wurde
+
+3. Starten der Website, indem im Browser localhost:1313 eingegeben wird.
+
+4. Das Projekt ist unter https://github.com/kleinehexe369/Stammbaum_Hugo eingecheckt
+
+5. Neues theme für Stammbaum angelegt
+
+6. Unter /Stammbaum_Hugo/themes/Stammbaum/layouts/_defaults/baseof.html

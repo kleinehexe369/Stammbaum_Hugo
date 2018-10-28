@@ -1,6 +1,6 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
+title = "Stammbaum Essert / Petersen"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -20,8 +20,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Claudia Essert"
+	description = "Stammbaum der Familient Essert und Petersen"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -29,13 +29,13 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Hugo Creative Theme"
+		brand = "Stammbaum Essert / Petersen"
 
 		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
-			contact   = "Contact"
+			about     = "Home"
+			services  = "Stammbaum"
+			portfolio = "Personen"
+			contact = "Urkunden"
 
 
 	# Hero section
