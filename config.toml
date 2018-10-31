@@ -44,8 +44,6 @@ googleAnalytics = ""
 	[params.stammbaum]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		headline    = "Stammbaum der Familien Petersen und Essert"
-		description = "Hier kommt der Stammbaum hin."
-		buttonText  = "Find out more"
 
 
 	# Petersen section
