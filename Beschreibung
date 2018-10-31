@@ -11,4 +11,10 @@ Beschreibung:
 
 5. Neues theme für Stammbaum angelegt und aus Creative-Theme abgeleitet
 
-6.
+6. Unter dem theme gibt es im sub-directory layouts eine indes.html, mit dem die Gesamtseite aus den partials
+   zusammen gebaut wird.
+
+7. Die statischen HTML Seiten werden mit dem Befehl "Hugo" gebaut und liegen
+   dann in dem Verzeichnis "public".
+   Damit der Build funktioniert, muss im config.toml die baseurl auf "" gesetzt werden.
+   
