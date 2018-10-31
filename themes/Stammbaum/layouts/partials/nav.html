@@ -16,30 +16,35 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
+                {{ if and .Site.Params.stammbaum .Site.Params.navigation.links.stammbaum }}
                     <li>
-                        <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
+                        <a class="page-scroll" href="#stammbaum">{{ .Site.Params.navigation.links.stammbaum }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
+                {{ if and .Site.Params.petersen.list .Site.Params.navigation.links.petersen }}
                     <li>
-                        <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
+                        <a class="page-scroll" href="#petersen">{{ .Site.Params.navigation.links.petersen }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
+                {{ if and .Site.Params.essert.list .Site.Params.navigation.links.essert }}
                     <li>
-                        <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
+                        <a class="page-scroll" href="#essert">{{ .Site.Params.navigation.links.essert }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
+                {{ if and .Site.Params.urpetersen.list .Site.Params.navigation.links.urpetersen }}
+                    <li>
+                        <a class="page-scroll" href="#urpetersen">{{ .Site.Params.navigation.links.urpetersen }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.uressert.list .Site.Params.navigation.links.uressert }}
+                    <li>
+                        <a class="page-scroll" href="#uressert">{{ .Site.Params.navigation.links.uressert }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Params.statistik .Site.Params.navigation.links.statistik }}
                 <li>
-                    <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
+                    <a class="page-scroll" href="#statistik">{{ .Site.Params.navigation.links.statistik }}</a>
                 </li>
-                {{ end }}
-                {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
-                    <li>
-                        <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
-                    </li>
                 {{ end }}
             </ul>
         </div>
