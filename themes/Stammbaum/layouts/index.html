@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ if or .Site.Params.navigation.links.stammbaum .Site.Params.navigation.links.petersen .Site.Params.navigation.links.essert .Site.Params.navigation.links.urpetersen .Site.Params.navigation.links.uressert .Site.Params.navigation.links.statistik}}
+            {{ partial "nav.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.stammbaum }}
+            {{ partial "stammbaum.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.petersen.list }}
+            {{ partial "petersen.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.essert.list }}
+            {{ partial "essert.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.urpetersen.list }}
+            {{ partial "urpetersen.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.uressert.list }}
+            {{ partial "uressert.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.statistik }}
+            {{ partial "statistik.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.projects }}
+            {{ partial "modals.html" . }}
+        {{ end }}
+
+        {{ partial "js.html" . }}
+
+    </body>
+</html>
