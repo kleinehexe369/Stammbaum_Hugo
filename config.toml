@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "http://localhost:1313"
 languageCode = "en-us"
 title = "Stammbaum Essert / Petersen"
 theme = "Stammbaum"
